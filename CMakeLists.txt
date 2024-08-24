@@ -12,7 +12,7 @@ file(GLOB_RECURSE SRC
 	"src/*.cpp"
 )
 
-add_library(${PROJECT_NAME} SHARED ${SRC})
+add_library(${PROJECT_NAME} SHARED ${SRC}   "src/sqfunc.h" "src/sqfunc.cpp")
 
 target_compile_definitions(${PROJECT_NAME}
 	PRIVATE
