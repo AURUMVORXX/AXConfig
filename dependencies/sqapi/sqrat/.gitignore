@@ -1,0 +1,17 @@
+# Windows files
+
+desktop.ini
+
+# Main directory
+
+/build/
+/out/
+/docs/
+
+# Visual Studio
+
+/.vs/
+
+# VS Code
+
+/.vscode/

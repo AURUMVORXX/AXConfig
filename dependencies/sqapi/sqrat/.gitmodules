@@ -1,0 +1,3 @@
+[submodule "sqrattest/gtest"]
+	path = sqrattest/googletest
+	url = https://github.com/google/googletest.git
